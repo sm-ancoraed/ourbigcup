@@ -52,7 +52,7 @@ public class pay {
     public static void computeNetPay(double hours) {
 
         hoursWorked = hours;
-        rateOfPay = 5.85;
+        rateOfPay = 6.86;
         withholdRate = 0.15;
         grossPay = hoursWorked * rateOfPay;
         netPay = grossPay - (grossPay * withholdRate);
