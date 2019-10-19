@@ -43,11 +43,17 @@ public class pay {
 // put code here
 
     }
-    public static void computeNetPay(double hours, double rateOfPay) {
+   public static void computeNetPay(double hours, double payrate) {
 
-// put code here
 
-    }
+        hoursWorked = hours;
+        withholdRate = 0.20;
+        rateOfPay = payrate;
+        grossPay = hours * payrate;
+        netPay = grossPay - (grossPay * withholdRate);
+
+
+}
 
     public static void computeNetPay(double hours) {
 
