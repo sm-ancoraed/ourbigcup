@@ -1,10 +1,3 @@
-/*
-
-Awaiting net pay data
- */
-
-
-public class ComputeNetPay {
     public static void computeNetPay(double hours, double payrate, double withhold) {
 
         hoursWorked = hours;
@@ -14,4 +7,5 @@ public class ComputeNetPay {
         netPay = grossPay - (grossPay * withholdRate);
 
     }
-}
+	
+	
